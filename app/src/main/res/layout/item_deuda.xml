@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/formatolistview"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:paddingTop="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_Fecha"
+        android:id="@+id/label_fecven"
+        android:paddingRight="10dp"
+        style="@style/formatolistview" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFecVen"
+        android:paddingRight="20dp"
+        style="@style/formatolistview" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textVencido"
+        android:textStyle="bold"
+        style="@style/formatolistview"
+        android:padding="0.5dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#ffff2603" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENSUALIDAD DE ENERO 2015"
+            android:id="@+id/textConcepto"
+            style="@style/formatolistview" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bs. 1500,00"
+            android:id="@+id/textMonto"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="right"
+            style="@style/formatolistview" />
+
+
+    </LinearLayout>
+    <!-- View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/colorPrimary" / -->
+</LinearLayout>
+

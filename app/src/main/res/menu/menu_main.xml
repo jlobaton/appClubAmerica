@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ve.com.seguridadsistema.clubamerica.ConsultaActivity">
+
+    <item android:id="@+id/compartir"
+        android:title="@string/compartir"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        android:icon="@drawable/ic_logov4"/>
+
+    <item android:id="@+id/sugerencia"
+        android:title="@string/sugerencia"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        android:orderInCategory="5" />
+
+    <item android:id="@+id/contactenos"
+        android:title="@string/contactenos"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        android:orderInCategory="6" />
+
+    <item android:id="@+id/acercade"
+        android:title="@string/acercade"
+        android:orderInCategory="10" />
+
+</menu>

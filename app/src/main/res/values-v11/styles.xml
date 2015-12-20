@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/Blanco</item>
+        <item name="android:textColor">@color/Negro</item>
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="android:textColor">@color/Negro</item>
+        <item name="android:editTextColor">@color/Negro</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <!-- item name="android:background">@color/black_overlay</item -->
+    </style>
+
+    #LISTVIEW DETALLE DEUDA
+    <style name="DetalleDeuda">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">378dp</item>
+        <item name="android:divider">@drawable/list_divider</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+</resources>

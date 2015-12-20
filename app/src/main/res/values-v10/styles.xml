@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/Blanco</item>
+        <item name="android:textColor">@color/Negro</item>
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    #LISTVIEW DETALLE DEUDA
+    <style name="DetalleDeuda">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">220dp</item>
+        <item name="android:divider">@drawable/list_divider</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+</resources>

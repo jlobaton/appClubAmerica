@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="1dp"
+    tools:context="sys_jm.app.tiendaonline.Acercade">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:layout_below="@+id/tool_bar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/ic_logov4"
+            android:id="@+id/imageView"
+            style="@style/ImagenLogo" />
+
+        <TextView
+            android:text="@string/Contactenos_Titulo_Horario"
+            android:id="@+id/horari"
+            style="@style/Acercade_Titulo"/>
+
+        <View style="@style/Separator" />
+
+        <TextView android:text="@string/Contactenos_Horario"
+            style="@style/VersionApp"
+            android:layout_gravity="left"
+            android:gravity="left" />
+
+
+        <TextView
+            android:text="@string/Contactenos_Titulo_Ubicacion"
+            android:id="@+id/ubicacion"
+            style="@style/Acercade_Titulo"/>
+
+        <View style="@style/Separator" />
+
+        <TextView android:text="@string/Contactenos_Direccion"
+            style="@style/VersionApp"/>
+
+        <TextView
+            android:text="@string/contactenos_Titulo_correo"
+            android:id="@+id/titulocorreo"
+            style="@style/Acercade_Titulo" />
+
+        <View style="@style/Separator" />
+
+        <TextView
+            android:text="@string/contactenos_Correo"
+            android:id="@+id/correo"
+            style="@style/Informacion"
+            android:autoLink="email"
+            android:gravity="left" />
+
+
+    </LinearLayout>
+</RelativeLayout>

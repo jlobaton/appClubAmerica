@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- item name="android:textColorPrimary">@color/Blanco</item-->
+        <!--item name="android:textColor">@color/ColorPrimaryDarkV2</item>
+        <item name="android:editTextColor">@color/ColorPrimaryDarkV2</item-->
+        <!--item name="android:colorAccent">@color/colorPrimaryDark</item -->
+        <item name="android:windowBackground">@color/Blanco</item>
+        <item name="android:textColor">@color/Negro</item>
+        <!--item name="android:editTextColor">@color/Negro</item-->
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+
+    </style>
+    #PANTALLA PRINCIPAL
+    <style name="titulo">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    #PANTALLA DEUDA
+    <style name="titulo2">
+        <item name="android:textSize">14sp</item>
+        <!-- item name="android:textStyle">bold</item -->
+        <item name="android:shadowColor">#4c0f0f0f</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    #LISTVIEW DETALLE DEUDA
+    <style name="DetalleDeuda">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">378dp</item>
+        <item name="android:divider">@drawable/list_divider</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="formatolistview">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/Negro</item>
+        <!-- item name="android:textStyle">bold</item -->
+    </style>
+
+    <style name="estatus">
+        <!-- item name="android:background">#fffffb03</item-->
+        <item name="android:textColor">#ffff0202</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:shadowColor">#4c0f0f0f</item>
+    </style>
+
+    #PANTALLA DE ACERCA DE
+    <style name="ImagenLogo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="Separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/Negro</item>
+
+    </style>
+
+    <style name="ImagenListadoItemTitulo">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+    </style>
+
+    <style name="ListadoItemTitulo">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ListadoItemPrecio">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Acercade_Titulo" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/Negro</item>
+
+    </style>
+
+    <style name="VersionApp">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Informacion" parent="VersionApp">
+
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="ButtonAppTheme">
+        <item name="android:textColor">@color/Blanco</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+</resources>
+

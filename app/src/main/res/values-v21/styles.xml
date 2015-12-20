@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/Blanco</item>
+        <item name="android:windowBackground">@color/Blanco</item>
+        <item name="android:textColor">@color/Negro</item>
+        <item name="android:editTextColor">@color/Negro</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+    </style>
+
+    <style name="ButtonAppTheme" parent="android:Widget.Material.Button">
+        <item name="android:textColor">@color/Blanco</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:translationZ">1dp</item>
+        <item name="android:background">@drawable/round</item>
+    </style>
+
+</resources>

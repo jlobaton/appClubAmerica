@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">app.ClubAmerica</string>
+    <string name="imagen_inicio">Imagen de Inicio</string>
+    <string name="title_activity_inicio">Club América</string>
+    <string name="piedepagina">Todos los Derechos Reservado @ Seguridad y Sistema JM</string>
+    <string name="title_activity_main">Club América</string>
+    <string name="compartir">Compartir Aplicación</string>
+    <string name="sugerencia">Sugerencia</string>
+    #ACTIVIDAD DEE CONSULTA
+    <string name="nrocarnet">Nro Carnet:</string>
+    <string name="cedula">Cédula:</string>
+    <string name="label_NombreSocio">Nombre del Socio:</string>
+    <string name="consulta_deuda">Consulta de Deuda</string>
+    <string name="title_activity_consulta">Consulta de Deuda</string>
+    <string name="label_DetalleDeuda">DETALLE DE LA DEUDA</string>
+    <string name="label_Fecha">Fecha :</string>
+    #ACTIVIDAD ACERCA DE
+    <string name="title_activity_acercade">Acerca de</string>
+    <string name="acercade">Acerca de</string>
+    <string name="DescripcionAPP">Aplicaciones que permite ...</string>
+    <string name="VersionName">"Versión"</string>
+    <string name="versionapp">"Versión 1.0 - 2015
+Todos los Derechos Reservado"</string>
+    <string name="DesarrolladoName">Desarrollado por</string>
+    <string name="Desarrollado">"Ing. Jesús M. Lobatón E.(Seguridad y Sistema JM) para el Centro Atletico Club America
+Barquisimeto - Venezuela"</string>
+    <string name="TituloInformacion">Información</string>
+    <string name="Informacion">"Por favor, pongase en contacto con nosotros para cualquier duda o sugerencia a traves de nuestro correo CentroAtleticoAmerica@hotmail.com"</string>
+    #ACTIVIDAD DE CONTACTENOS    <string name="title_activity_contactenos">Contactenos</string>
+    <string name="Contactenos_Titulo_Ubicacion">Nuestros Datos</string>
+    <string name="contactenos">Contactenos</string>
+    <string name="Contactenos_Direccion">Telefonos: (0251) - 4411594 / 4424237 / 4410025\n
+        Av. Fuerzas Armadas con calle 57 \n Barquisimeto Edo Lara</string>
+    <string name="contactenos_Titulo_correo">Redes Sociales</string>
+    <string name="contactenos_Correo">E-mail: CentroAtleticoAmerica@hotmail.com\nTwitter: @CAAAMERICA \nFacebook: facebook.com/accaa</string>
+    <string name="Contactenos_Titulo_Horario">Nuestros Horarios</string>
+    <string name="Contactenos_Horario">        Administración:  Lunes a Viernes \n8:00 am a 12pm / 2:00pm a 6:00pm\n\nCobranza: Lunes a Viernes \n8:00 am a 12pm / 1:00pm a 7:00pm\nSabado: 09:00am a 04:00pm</string>
+
+
+    #ACTIVIDAD DE SUGERENCIA
+    <string name="title_activity_sugerencia">Sugerencia</string>
+    <string name="sugerencia_name">Nro Carnet:</string>
+    <string name="sugerencia_nombre">Nombre:</string>
+    <string name="sugerencia_obser">Observación:</string>
+
+</resources>
