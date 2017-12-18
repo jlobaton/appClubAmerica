@@ -17,8 +17,8 @@ public class Herramienta {
     public String MensajeErrorGeneral = "Ha ocurrido un Error, vuelva a intentarlo...";
     protected String MensajeCompartirTitulo = "Te Recomiendo esta Aplicación";
     protected String NombreApp = "app.ClubAmerica";
-    protected String URLApk = "http://bit.ly/clubamerica"; //http://bit.ly/1Iz8bpW";
-    protected String MensajeCompartir = "Hola, te recomiendo esta aplicación <"+NombreApp+"> permite consultar tus Deudas Pendiente a Cancenlar asignada en el Club America... Puedes Descargarlo desde aqui "+URLApk;
+    protected String URLApk = "https://play.google.com/store/apps/details?id=ve.com.seguridadsistema.clubamerica"; //"http://bit.ly/clubamerica"; //http://bit.ly/1Iz8bpW";
+    protected String MensajeCompartir = "Hola, te recomiendo esta aplicación <"+NombreApp+"> permite consultar tus Deudas Pendiente a Cancenlar asignada en el Club América... Puedes Descargarlo desde aquí "+URLApk;
     protected String CorreoSYSJM = "ventas@seguridadsistema.com.ve";
 
     public Herramienta(){
